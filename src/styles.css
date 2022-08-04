@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 98vh;
+}
+
+.grid {
+  border: 0.3px solid black;
+}

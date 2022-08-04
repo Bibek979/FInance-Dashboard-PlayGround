@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+
+.buyNow {
+  margin-left: 10%;
+  margin-bottom: 0.1px;
+}
+
+.ul li {
+  margin: 0.8em auto;
+  background-color: rgba(189, 190, 124, 0.221);
+  cursor: pointer;
+}
+.gridContainerDashboard {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: space-between;
+}
+
+.dashboardGrid {
+  border: 0.2px solid black;
+  max-width: 60%;
+}
+
+.dashboardGrid.one,
+.dashboardGrid.two {
+  border-radius: 10px;
+}
+
+.cardHeading,
+.cardBottom {
+  text-align: center;
+}
+
+.barChart {
+  display: flex;
+  justify-content: center;
+}
